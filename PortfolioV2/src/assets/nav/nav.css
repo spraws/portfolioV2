@@ -1,0 +1,44 @@
+.nav {
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    padding: 0 2rem; /* Add padding to prevent content from touching edges */
+    max-width: 100%; /* Ensure nav doesn't exceed viewport width */
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    width: 100%;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .logo {
+    margin-right: auto;
+    font-family: "source-serif-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.2rem;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: var(--color-primary);
+    
+  }

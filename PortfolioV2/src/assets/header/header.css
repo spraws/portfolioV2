@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 2rem;
+  
+  }
+  
+  /* Add this new class for the content container */
+  .header h1 {
+    margin: 10rem;
+    text-align: center; /* Centers the text itself */
+    width: 100%; /* Ensures the h1 takes full width of its container */
+  }
