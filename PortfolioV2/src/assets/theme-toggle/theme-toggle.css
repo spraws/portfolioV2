@@ -1,0 +1,19 @@
+.theme-toggle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.theme-toggle.light {
+  background-color: #EDE8D0;
+}
+
+.theme-toggle.dark {
+  background-color: #33312b;
+}
+
+.theme-toggle.amoled {
+  background-color: #000000;
+}

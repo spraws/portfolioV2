@@ -1,0 +1,36 @@
+.dropdown {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+        top: 0;
+        right: 0;
+        margin-right: 2rem;
+        margin-top: 4rem;
+    background-color: var(--color-tertiary);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.504);
+    transition: ease-in-out 0.5s;
+
+}
+
+.dropdown.open{
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+}
+
+.theme-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.theme-toggle {
+  transition: transform 0.2s ease;
+  z-index: 100;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}

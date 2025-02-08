@@ -7,14 +7,29 @@
 --color-secondary: #33312b;
 --color-tertiary: #ff8559;
 
-  color-scheme: light dark;
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="dark"] {
+  --color-primary: #33312b;
+  --color-secondary: #EDE8D0;
+  --color-tertiary: #ff8559;
+} 
+
+[data-theme="light"] {
+  --color-primary: #EDE8D0;
+  --color-secondary: #33312b;
+  --color-tertiary: #ff8559;
+}
+
+[data-theme="amoled"]{
+  --color-primary: #000000;
+  --color-secondary: #EDE8D0;
+  --color-tertiary: #ff8559;
 }
 
 
@@ -30,6 +45,12 @@ p {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  transition: ease-in-out 0.5s;
 }
 
 

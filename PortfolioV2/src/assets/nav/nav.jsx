@@ -1,4 +1,7 @@
 import './nav.css';
+import './nav.css';
+import ThemeButton from '../theme-btn/ThemeButton';
+
 
 function Nav() {
   return (
@@ -16,6 +19,9 @@ function Nav() {
           </li>
           <li className="nav-item">
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <ThemeButton />
           </li>
         </div>
       </ul>

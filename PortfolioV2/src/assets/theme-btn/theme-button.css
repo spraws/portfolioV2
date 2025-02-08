@@ -1,0 +1,11 @@
+.theme-btn{
+    color: var(--color-tertiary);
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+
+  }
