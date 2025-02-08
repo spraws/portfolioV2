@@ -9,10 +9,27 @@
 
 .about-content-text p {
     width: 70%;
+    text-align: center;
 }
 
-.sect-2 {
+.sect-2, .sect-3 {
     text-align: left;
+}
+
+.goLang{
+    font-size: 2.4rem;
+    vertical-align: bottom;
+    transition: ease    -in-out 0.5s;
+    text-decoration: none;
+}
+
+
+.goLang:hover {
+    color: #00ADD8;
+}
+
+.python:hover{
+    color: #306998;
 }
 
 .about-content-text p a {
