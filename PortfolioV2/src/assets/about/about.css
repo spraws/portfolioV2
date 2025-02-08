@@ -1,0 +1,22 @@
+.about-content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  flex-direction: column;
+  
+}
+
+.about-content-text p {
+    width: 70%;
+}
+
+.sect-2 {
+    text-align: left;
+}
+
+.about-content-text p a {
+    text-decoration: underline wavy var(--color-tertiary);
+    text-decoration-thickness: 2px;
+    color: var(--color-secondary);
+}
