@@ -5,11 +5,20 @@ const ThemeToggle = ({ theme }) => {
 
   const setTheme = () => {
     document.querySelector("body").setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
   };
 
+  const usrTheme = localStorage.getItem("theme");
+  if (usrTheme) {
+    document.querySelector("body").setAttribute("data-theme", usrTheme);
+  }
+
   return (
-    <div onClick={setTheme} className={`theme-toggle ${theme}`}>
+    <div 
+    onClick={setTheme} className={`theme-toggle ${theme}`}>
     </div>
+
+
   );
 }
 

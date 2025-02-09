@@ -11,7 +11,7 @@ function AboutContent() {
                 <h1>About Me</h1>
                 <p>
                     I am a cybersecurity student at the <a href="https://www.worcester.ac.uk/">University of Worcester</a>. Through my studies, I have gained experience in web and mobile development, as well as forensic analysis and penetration testing. 
-                </p>
+                </p> 
                 <p className="sect-2">
                     Forensics is my main field of interest, but I am also interested in neural networks, machine learning and offensive security.
                 </p>

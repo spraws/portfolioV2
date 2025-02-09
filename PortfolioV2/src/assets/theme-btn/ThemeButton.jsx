@@ -11,12 +11,16 @@ function ThemeButton() {
     setIsOpen(!isOpen);
   };
 
+  const closeDropdown = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div>
       <button className='theme-btn' onClick={toggleDropdown}>
         <FontAwesomeIcon icon={faCircleHalfStroke} />
       </button>
-      <DropDown isOpen={isOpen} />
+      <DropDown isOpen={isOpen} onClose={closeDropdown} />
     </div>
   );
 }

@@ -7,6 +7,10 @@
 --color-secondary: #33312b;
 --color-tertiary: #ff8559;
 
+/* other */
+
+--color-react-blue: #61dafb;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
