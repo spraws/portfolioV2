@@ -1,12 +1,11 @@
 import './nav.css';
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import ThemeButton from '../theme-btn/ThemeButton';
 import DropDown from '../DropDown/DropDown';
-import Projects from '../../pages/projects/projects.jsx';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
-    <Router>
+    // <Router>
       <nav className="nav">
         <ul>
           <li className="logo">
@@ -29,12 +28,13 @@ function Nav() {
           </div>
         </ul>
       </nav>
-      <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/projects" element={<Projects />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
-      </Routes>
-    </Router>
+    //   <Routes>
+    //     {/* <Route path="/" element={<Home />} /> */}
+    //     <Route path="/projects" element={<Projects />} />
+    //     {/* <Route path="/contact" element={<Contact />} /> */}
+    //   </Routes>
+    // </Router>
+    
   );
 }
 
