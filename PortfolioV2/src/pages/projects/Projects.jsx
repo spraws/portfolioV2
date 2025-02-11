@@ -7,7 +7,7 @@ function Projects(){
       <AboutContent title="Projects"></AboutContent>
       <div>
         <p></p>
-       pcaljfkhfkhsflihshjflkhadflkhasdkfhaekjfbefkjsd
+       
       </div>
     </div>
   );
