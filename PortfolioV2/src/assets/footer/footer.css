@@ -5,6 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: fixed;  /* Add this */
+    bottom: 0;       /* Add this */
+    left: 0;         /* Add this */
 }
 
 .footer p {

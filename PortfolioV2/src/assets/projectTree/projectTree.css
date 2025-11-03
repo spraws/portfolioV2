@@ -38,6 +38,7 @@
     max-height: 0;
     transform: translateY(-10px); /* Start slightly above */
     opacity: 0;                  /* Start invisible */
+    margin-left: 4rem;
   }
   
   /* Collapsed state */
@@ -61,6 +62,15 @@
 }
 
 
+.ul{
+    text-decoration: underline wavy var(--color-tertiary);
+    text-decoration-thickness: 2px;
+    color: var(--color-secondary);
+}
+
+
+
+
 .expandBtn{
     background: none;
     border: none;
@@ -71,6 +81,30 @@
     color: inherit;
     font: inherit;
 }
+
+.gitIco{
+    font-size: 2rem;
+    color: var(--color-secondary);
+    transition: color 0.5s ease-in-out;
+}
+
+.gitIco:hover{
+    color: var(--color-tertiary);
+    cursor: pointer;
+}
+
+.linkIco{
+    font-size: 2rem;
+    color: var(--color-secondary);
+    transition: color 0.5s ease-in-out;
+    margin-left:1rem ;
+}
+
+.linkIco:hover{
+    color: var(--color-tertiary);
+    cursor: pointer;
+}
+
 
 .chevron{
     font-size: 3rem;
