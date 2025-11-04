@@ -15,8 +15,8 @@
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .projects-container {
-        padding: 0 1.5rem;
-        text-align: center;
+        /* padding: 0 1.5rem; */
+        /* text-align: center; */
     }
     
     .projectTree {

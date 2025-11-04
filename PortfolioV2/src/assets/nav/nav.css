@@ -66,8 +66,6 @@
         left: 0;
         right: 0;
         bottom: 0;
-        width: 100vw;
-        height: 100vh;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -78,7 +76,14 @@
         align-items: center;
         gap: 2rem;
         transition: top 0.3s ease;
-        z-index: 5;
+        z-index: 999;
+        list-style: none;
+    }
+
+    .nav-list > li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 
     .nav-list.nav-active {

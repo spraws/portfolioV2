@@ -8,17 +8,16 @@
 
 .yearContainer{
     display: flex;
-    gap: 1rem;
     flex-direction: row;
     align-items: center;
-    margin: 1rem;
 }
 
-.year{
-    font-family: 'inter', sans-serif;
-    font-weight: 900;
-    font-size: 9rem;
+.year {
+  font-family: 'inter', sans-serif;
+  font-weight: 900;
+  font-size: clamp(3rem, 15vw, 9rem);
 }
+
 
 
 /* thread/tree line
@@ -29,7 +28,6 @@
     width: 2px;
 }
 .line{ */
-/* END OF THREAD */
 
 
 .projectContainer {
@@ -38,8 +36,8 @@
     max-height: 0;
     transform: translateY(-10px); /* Start slightly above */
     opacity: 0;                  /* Start invisible */
-    margin-left: 4rem;
-  }
+    /* margin-left: 4rem; */
+  }S
   
   /* Collapsed state */
   .projectContainer.collapsed {
@@ -69,12 +67,14 @@
 }
 
 .projectTitle {
-    font-size: 6rem;
+    font-size: clamp(3rem, 10vw, 9rem);
     margin-bottom: 0.5rem;
     color: var(--color-secondary);
     line-height: 0.9; /* Reduces space between lines when text wraps */
     padding-bottom: 1rem;
 }
+
+
 
 
 .expandBtn{
@@ -119,4 +119,6 @@
 
 .desc{
     margin-top: -2rem;
+    font-size: clamp(1rem, 4vw, 3rem);
 }
+
