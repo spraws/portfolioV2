@@ -2,6 +2,29 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
+}
+
+/* Projects container styling */
+.projects-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .projects-container {
+        padding: 0 1.5rem;
+        text-align: center;
+    }
     
+    .projectTree {
+        align-items: center;
+    }
+    
+    .yearContainer {
+        justify-content: center;
+    }
 }
 

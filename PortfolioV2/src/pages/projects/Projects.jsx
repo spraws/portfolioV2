@@ -9,10 +9,10 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 function Projects(){
   return(
-    <div>
+    <div className="App">
       <Nav />
       <AboutContent title="Projects"></AboutContent>
-      <div>
+      <div className="projects-container">
         {projectData.map((yearData, index) => (
           <ProjectTree 
             key={index} 
@@ -32,6 +32,18 @@ const projectData = [
       {
         title: "PortfolioV2",
         desc: "Self explanatory, you're on it right now. Built with React"
+      },
+      {
+        title: "Gentoo-based Operating System",
+        desc: "Part of my Operating Systems course, a custom Gentoo-based operating system, designed to security test virtual machines and docker containers"
+      },
+      {
+        title: "Dissertation",
+        desc: "Final year project, a research project assessing the impact of cyberwarfare in Ukraine"
+      },
+      {
+        title: "RFID Attendance System",
+        desc: "Part of my Systems Design course, a RFID based attendance system, written in Python and GO"
       },
       {
         title: "Android ToDo App",
@@ -80,7 +92,7 @@ const projectData = [
         desc: (
           <>
             <>
-              CLI Password manager written in Python{" "}
+              CLI Password manager written in Python, allowed me to play around with security concepts{" "}
               <a href="https://github.com/spraws/pyPass" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="gitIco" icon={faGithub} />
               </a>

@@ -6,6 +6,7 @@
 --color-primary: #EDE8D0;
 --color-secondary: #33312b;
 --color-tertiary: #ff8559;
+--color-shadow: rgba(0, 0, 0, 0.550);
 
 /* other */
 
@@ -18,22 +19,38 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Hide scrollbar for all elements */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
 [data-theme="dark"] {
   --color-primary: #33312b;
   --color-secondary: #EDE8D0;
   --color-tertiary: #ff8559;
+  --color-shadow: rgba(0, 0, 0, 0.550);
 } 
 
 [data-theme="light"] {
   --color-primary: #EDE8D0;
   --color-secondary: #33312b;
   --color-tertiary: #ff8559;
+  --color-shadow: rgba(0, 0, 0, 0.550);
+
 }
 
 [data-theme="amoled"]{
   --color-primary: #000000;
   --color-secondary: #7c796c;
   --color-tertiary: #ff8559;
+  --color-shadow: rgba(213, 213, 213, 0.55);
+
 }
 
 
