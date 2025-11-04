@@ -67,7 +67,7 @@
 }
 
 .projectTitle {
-    font-size: clamp(3rem, 10vw, 9rem);
+    font-size: clamp(3rem, 10vw, 8rem);
     margin-bottom: 0.5rem;
     color: var(--color-secondary);
     line-height: 0.9; /* Reduces space between lines when text wraps */
@@ -118,7 +118,7 @@
 }
 
 .desc{
-    margin-top: -2rem;
-    font-size: clamp(1rem, 4vw, 3rem);
+    margin-top: -.5rem;
+    font-size: clamp(1rem, 4vw, rem);
 }
 

@@ -4,7 +4,7 @@
   font-weight: 400;
 
 --color-primary: #EDE8D0;
---color-secondary: #33312b;
+--color-secondary: #141413;
 --color-tertiary: #ff8559;
 --color-shadow: rgba(0, 0, 0, 0.550);
 
@@ -31,7 +31,7 @@
 }
 
 [data-theme="dark"] {
-  --color-primary: #33312b;
+  --color-primary: #141413;
   --color-secondary: #EDE8D0;
   --color-tertiary: #ff8559;
   --color-shadow: rgba(0, 0, 0, 0.550);
@@ -39,7 +39,7 @@
 
 [data-theme="light"] {
   --color-primary: #EDE8D0;
-  --color-secondary: #33312b;
+  --color-secondary: #141413;
   --color-tertiary: #ff8559;
   --color-shadow: rgba(0, 0, 0, 0.550);
 
