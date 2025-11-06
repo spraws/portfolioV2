@@ -14,10 +14,10 @@ function Home() {
             <Header />
             <AboutContent title="About Me">
                 <p>
-                    I am a cybersecurity student at the <a href="https://www.worcester.ac.uk/">University of Worcester</a>. Through my studies, I have gained experience in web and mobile development, as well as forensic analysis and penetration testing.
+                    I am a cybersecurity student at the <a href="https://www.worcester.ac.uk/">University of Worcester</a> aiming to specialise in forensic analysis and defence-oriented security. Through my studies, I have gained experience in web and mobile development, forensics, penetration testing and security analysis and response.
                 </p>
                 <p className="sect-2">
-                    Forensics is my main field of interest, but I am also interested in neural networks, machine learning and offensive security.
+                    Forensics is my main field of interest, but I am also interested in networking and incident response.
                 </p>
                 <p className="sect-3">
                     Currently I am learning <a href="https://go.dev/"><FontAwesomeIcon icon={faGolang} className="goLang" /></a>  and Python <a href="https://www.python.org/"><FontAwesomeIcon icon={faPython} className="python" /></a>

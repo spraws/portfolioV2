@@ -16,7 +16,7 @@ function Nav() {
     <nav className="nav">
       <ul>
         <li className="logo">
-          <Link to="/">jonty.info</Link>
+          <Link to="/">spra.ws</Link>
         </li>
         <HamburgerMenu onToggle={toggleMenu} />
         <div className={`nav-list ${menuOpen ? 'nav-active' : ''}`}>

@@ -1,0 +1,41 @@
+.contact-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    width: 100%;
+
+}
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/* Remove default list spacing on child <ul> so icons can truly center */
+.contact-item > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure anchors render as centered, clickable icon buttons */
+.contact-item a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: var(--color-tertiary);
+  transform: scale(1.1);
+}

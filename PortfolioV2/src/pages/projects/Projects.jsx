@@ -30,16 +30,16 @@ const projectData = [
     year: "2025",
     projects: [
       {
+        title: "Dissertation",
+        desc: "Final year project, a research project assessing the impact of cyberwarfare in Ukraine"
+      },
+      {
         title: "PortfolioV2",
         desc: "Self explanatory, you're on it right now. Built with React"
       },
       {
         title: "Gentoo-based Operating System",
         desc: "Part of my Operating Systems course, a custom Gentoo-based operating system, designed to security test virtual machines and docker containers"
-      },
-      {
-        title: "Dissertation",
-        desc: "Final year project, a research project assessing the impact of cyberwarfare in Ukraine"
       },
       {
         title: "RFID Attendance System",

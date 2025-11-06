@@ -37,7 +37,7 @@
     transform: translateY(-10px); /* Start slightly above */
     opacity: 0;                  /* Start invisible */
     /* margin-left: 4rem; */
-  }S
+  }
   
   /* Collapsed state */
   .projectContainer.collapsed {
@@ -68,10 +68,10 @@
 
 .projectTitle {
     font-size: clamp(3rem, 10vw, 8rem);
-    margin-bottom: 0.5rem;
     color: var(--color-secondary);
-    line-height: 0.9; /* Reduces space between lines when text wraps */
-    padding-bottom: 1rem;
+    line-height: 0.95; /* Reduces space between lines when text wraps */
+    margin-bottom: 1rem;
+    /* padding-bottom: 1rem; */
 }
 
 
@@ -89,7 +89,7 @@
 }
 
 .gitIco{
-    font-size: 2rem;
+    font-size: clamp(1rem, 4vw, 1.2rem);
     color: var(--color-secondary);
     transition: color 0.5s ease-in-out;
 }
@@ -100,10 +100,10 @@
 }
 
 .linkIco{
-    font-size: 2rem;
+    font-size: clamp(1rem, 4vw, 1.2rem);
     color: var(--color-secondary);
     transition: color 0.5s ease-in-out;
-    margin-left:1rem ;
+    margin-left:.5rem ;
 }
 
 .linkIco:hover{
@@ -113,12 +113,29 @@
 
 
 .chevron{
-    font-size: 3rem;
+    font-size: 1rem;
     color: var(--color-tertiary);
 }
 
 .desc{
     margin-top: -.5rem;
-    font-size: clamp(1rem, 4vw, rem);
+    font-size: clamp(1rem, 4vw, 1.2rem);
+}
+
+/* Mobile: center projects layout */
+@media (max-width: 768px) {
+  .projectContainer {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .project {
+    align-items: center;
+    text-align: center;
+  }
+
+  .yearContainer {
+    justify-content: center;
+  }
 }
 
