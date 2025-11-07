@@ -1,6 +1,6 @@
 import AboutContent from '../../assets/about/AboutContent';
 import Nav from '../../assets/nav/nav';
-import Footer from '../../assets/footer/footer';
+import Footer from '../../assets/footer/Footer.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
