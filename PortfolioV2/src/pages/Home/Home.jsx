@@ -2,7 +2,7 @@ import './home.css'
 import AboutContent from '../../assets/about/AboutContent';
 import Nav from '../../assets/nav/nav';
 import Header from '../../assets/header/Header'
-import Footer from '../../assets/footer/footer'
+import Footer from '../../assets/footer/Footer.jsx'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGolang } from "@fortawesome/free-brands-svg-icons";
 import { faPython } from "@fortawesome/free-brands-svg-icons";
