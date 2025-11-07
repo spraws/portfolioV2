@@ -60,7 +60,7 @@ const projectData = [
           <>
           React web app that uses the LastFM API to display the song I am currently listening to.{" "}
           <a href="https://github.com/spraws/LastFmWebApp"><FontAwesomeIcon className="gitIco" icon={faGithub} /></a>
-          <a href="https://next.jonty.info"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="linkIco"/></a>
+          <a href="https://listen.spra.ws"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="linkIco"/></a>
           </>
         ) 
       },
@@ -68,7 +68,7 @@ const projectData = [
         title: "Forensic Analysis & Report",
         desc: (
           <>
-            Part of my Digital Forensics course, report can be found <a className="ul" href="https://uniworcac-my.sharepoint.com/:w:/g/personal/sprj1_23_uni_worc_ac_uk/EWVwzg2RXItIrDBCCw5WeawBUB3RfEBYRW6Vf6b_ywd3QA?e=JfPXpy">here</a>
+            Part of my Digital Forensics course, report can be found <a className="ul" href="https://uniworcac-my.sharepoint.com/:w:/g/personal/sprj1_23_uni_worc_ac_uk/EWVwzg2RXItIrDBCCw5WeawBX4kJtS6fKexWY5Fw3NtRWw?e=u5YCHI">here</a>
             
           </>
         )
